@@ -16,17 +16,17 @@ namespace Osoba
 
         string Jmeno
         {
-            get => jmeno; // == return ridicvek
+            get => jmeno; // == return jmeno
             set{ this.jmeno = value; }
         }
         string Prijmeni
         {
-            get => prijmeni; // == return ridicvek
+            get => prijmeni; 
             set { this.prijmeni = value; }
         }
         float Hmotnost
         {
-            get => hmotnost; // == return ridicvek
+            get => hmotnost;
             set { 
                 if(hmotnost <= 300)
                 {
@@ -41,7 +41,7 @@ namespace Osoba
         }
         float Vyska
         {
-            get => vyska; // == return ridicvek
+            get => vyska / 100;
             set { this.vyska = value; }
         }
 
@@ -53,9 +53,14 @@ namespace Osoba
             this.vyska = vyska;
         }
 
-        public double BMI()
+        public float BMI()
+        {           
+            return (Hmotnost / (Vyska * Vyska));
+        }
+
+        public override string ToString()
         {
-            return ( Hmotnost / Vyska * Vyska );
+            return string.Format("Jmeno : {0} \nPrijmeni : {1} \n BMI: {3}",Jmeno, Prijmeni ,BMI());
         }
     }
 }

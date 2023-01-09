@@ -16,5 +16,12 @@ namespace Osoba
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Osoba pepa = new Osoba(textBox1.Text,textBox2.Text,(float)numericUpDown1.Value,(float)numericUpDown2.Value);
+
+            MessageBox.Show("tvoje BMI je :" + pepa.BMI());
+        }
     }
 }

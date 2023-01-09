@@ -1,0 +1,11 @@
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\bin\Debug\Osoba.exe.config
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\bin\Debug\Osoba.exe
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\bin\Debug\Osoba.pdb
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\obj\Debug\Osoba.csproj.AssemblyReference.cache
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\obj\Debug\Osoba.csproj.SuggestedBindingRedirects.cache
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\obj\Debug\Osoba.Form1.resources
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\obj\Debug\Osoba.Properties.Resources.resources
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\obj\Debug\Osoba.csproj.GenerateResource.cache
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\obj\Debug\Osoba.csproj.CoreCompileInputs.cache
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\obj\Debug\Osoba.exe
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Osoba\Osoba\Osoba\obj\Debug\Osoba.pdb
