@@ -23,7 +23,7 @@ namespace Osoba
 
             MessageBox.Show("tvoje BMI je :" + pepa.BMI());
             MessageBox.Show("" + pepa.ToString());
-            MessageBox.Show("tvoje BMI je :" + pepa.BMSI());
+            MessageBox.Show("tvoje BMI je :" + pepa.ABSI());
 
         }
     }

@@ -18,7 +18,7 @@ namespace Osoba
         {
             Obvodpasu=obvodpasu;
         }
-        public double BMSI()
+        public double ABSI()
         {
             obvodpasu/= 100;
 
