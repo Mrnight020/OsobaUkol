@@ -11,20 +11,20 @@ namespace Osoba
     {
         string jmeno;
         string prijmeni;
-        float hmotnost;
-        float vyska;
+        double hmotnost;
+        double vyska;
 
-        string Jmeno
+        protected string Jmeno
         {
             get => jmeno; // == return jmeno
             set{ this.jmeno = value; }
         }
-        string Prijmeni
+        protected string Prijmeni
         {
             get => prijmeni; 
             set { this.prijmeni = value; }
         }
-        float Hmotnost
+        protected double Hmotnost
         {
             get => hmotnost;
             set { 
@@ -39,13 +39,13 @@ namespace Osoba
                 
             }
         }
-        float Vyska
+        protected double Vyska
         {
             get => vyska / 100;
             set { this.vyska = value; }
         }
 
-        public Osoba(string jmeno, string prijmeni, float hmotnost, float vyska)
+        public Osoba(string jmeno, string prijmeni, double hmotnost, double vyska)
         {
             this.jmeno = jmeno;
             this.prijmeni = prijmeni;
@@ -53,14 +53,14 @@ namespace Osoba
             this.vyska = vyska;
         }
 
-        public float BMI()
-        {           
-            return (Hmotnost / (Vyska * Vyska));
+        public double BMI()
+        {
+            return Math.Round((Hmotnost / (Vyska * Vyska)),2);
         }
 
         public override string ToString()
         {
-            return string.Format("Jmeno : {0} \nPrijmeni : {1} \n BMI: {3}",Jmeno, Prijmeni ,BMI());
+            return string.Format("Jmeno : {0} \nPrijmeni : {1} \n BMI: {2}",Jmeno, Prijmeni ,BMI());
         }
     }
 }

@@ -3,23 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Osoba
 {
     internal class Pacient:Osoba
     {
-        float obvodpasu;
-        float Obvodpasu { 
-            get => obvodpasu/100;
+        double obvodpasu;
+        double Obvodpasu { 
+            get => obvodpasu;
             set { this.obvodpasu = value; }
         }
-        public Pacient(float obvodpasu,string jmeno, string prijmeni, float hmotnost, float vyska) :base(jmeno,prijmeni,hmotnost,vyska)
+        public Pacient(double obvodpasu,string jmeno, string prijmeni, double hmotnost, double vyska) :base(jmeno,prijmeni,hmotnost,vyska)
         {
             Obvodpasu=obvodpasu;
         }
-        public float BMSI()
+        public double BMSI()
         {
-            return Obvodpasu/100;
+            obvodpasu/= 100;
+
+            return Math.Round((Obvodpasu / (Math.Pow(BMI(),0.6666666) * Math.Pow(Vyska, 0.5))),3);
         }
     }
 }

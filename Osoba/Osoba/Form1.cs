@@ -19,9 +19,12 @@ namespace Osoba
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Osoba pepa = new Osoba(textBox1.Text,textBox2.Text,(float)numericUpDown1.Value,(float)numericUpDown2.Value);
+            Pacient pepa = new Pacient((float)numericUpDown3.Value,textBox1.Text,textBox2.Text,(float)numericUpDown1.Value,(float)numericUpDown2.Value);
 
             MessageBox.Show("tvoje BMI je :" + pepa.BMI());
+            MessageBox.Show("" + pepa.ToString());
+            MessageBox.Show("tvoje BMI je :" + pepa.BMSI());
+
         }
     }
 }
