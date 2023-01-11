@@ -24,5 +24,10 @@ namespace Osoba
 
             return Math.Round((Obvodpasu / (Math.Pow(BMI(),0.6666666) * Math.Pow(Vyska, 0.5))),3);
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + string.Format("\nABSI : {0} ",ABSI()); ;
+        }
     }
 }

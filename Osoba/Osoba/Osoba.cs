@@ -60,7 +60,7 @@ namespace Osoba
 
         public override string ToString()
         {
-            return string.Format("Jmeno : {0} \nPrijmeni : {1} \n BMI: {2}",Jmeno, Prijmeni ,BMI());
+            return string.Format("Jmeno : {0} \nPrijmeni : {1} \nBMI: {2}",Jmeno, Prijmeni ,BMI());
         }
     }
 }
